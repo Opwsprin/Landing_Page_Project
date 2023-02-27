@@ -12,10 +12,10 @@ a{
     font-weight:18px;
     color:#F4DFBA;
 }
-.header, .hero, .footer{
+.header, .hero, .footer, .quote{
     background-color:#603601;
     color:#F4DFBA;
-    padding:0 60px;
+    padding:6px 90px;
     display:flex;
     flex-direction: row;
     justify-content:space-between;
@@ -28,8 +28,12 @@ a{
 }
 
 .hero{
-    padding:20px 60px;
+    border-top:#F4DFBA;
+    border-style:solid;
+    border-width:0;
+    border-top-width:1px;
     flex-wrap:wrap;
+    gap:0 60px;
     /*justify-content: center;*/
 }
 
@@ -41,6 +45,8 @@ ul{
 }
 
 .hero_content{
+    padding:80px 0 0 0;
+    align-self: flex-start;
     flex-wrap: wrap;
     max-width:720px;
     min-width:360px;
@@ -49,12 +55,13 @@ ul{
 .text_title{
     min-width: 360px;
     font-weight:bolder;
-    padding:6px 60px 6px 0;
+    padding:0 0 12px 0;
+    /*padding:6px 60px 6px 0;*/
 }
 
 .text{
     font-size:18px;
-    padding:0 60px 6px 0;
+    /*padding:0 60px 6px 0;*/
     text-align:justify;
 }
 
@@ -86,6 +93,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:0 90px;
 }
 .information_header{
     margin:40px 40px 0 40px;
@@ -101,15 +109,6 @@ h1{
     align-items:center;
     padding:32px 100px;
 }*/
-
-.footer{
-    font-size:10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    padding:32px
-}
 
 .item_container{
     min-width:300px;
@@ -163,15 +162,13 @@ h1{
 
 .quote{
     background-color: #FEF7DC;
-    display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     color:#603601;
     font-size:28px;
     font-weight: light;
     font-style: italic;
-    padding:80px;
+    padding:90px;
     text-align:justify;
 }
 
@@ -209,4 +206,17 @@ h1{
     border-radius:6px;
     border-width: 2px;
     border-color:#F4DFBA;
+}
+
+.footer{
+    font-size:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:32px
+}
+
+.footer_link{
+    text-decoration-line: underline;
 }
