@@ -7,3 +7,5 @@ Played around with CSS settings to make sure I was happy (ish) with the way the 
 No functionality added. 
 
 I have to admit, at first I thought the project was to replicate the provided image, not create my own imaginary webpage. This is (mostly) why it took me longer than I hoped to upload it.
+
+DISCLAIMER: The code is a mess. A lot of repetition and I will return to refactor it in the future. Odin Project Students DO NOT use this as your example!
