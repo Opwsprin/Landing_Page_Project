@@ -4,6 +4,7 @@ body {
     display:flex;
     flex-direction: column;
     background-color: #F4DFBA;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a{
@@ -27,7 +28,7 @@ a{
 }
 
 .hero{
-    padding:60px;
+    padding:20px 60px;
     flex-wrap:wrap;
     /*justify-content: center;*/
 }
@@ -164,15 +165,44 @@ h1{
     justify-content: center;
     align-items: center;
     color:#603601;
-    font-size:36px;
+    font-size:28px;
     font-weight: light;
     font-style: italic;
     padding:80px;
+    text-align:justify;
 }
 
 .quotee{
     align-self:flex-end;
-    font-size:24px;
+    font-size:18px;
     font-weight:normal;
     font-style:normal;
+}
+
+.sign_up{
+    background-color:#FF8303;
+    margin:60px auto;
+    padding:20px 120px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    font-size:18px;
+    color:#F4DFBA;
+    border-radius: 12px;
+    gap:0 120px;
+    white-space: nowrap;
+    flex-wrap:wrap;
+}
+
+.sign_up_header{
+    font-weight: bolder;
+    font-size:24px
+}
+
+#bottom_button{
+    border-style:solid;
+    border-radius:6px;
+    border-width: 2px;
+    border-color:#F4DFBA;
 }
