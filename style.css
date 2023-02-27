@@ -44,8 +44,7 @@ ul{
     max-width:720px;
 }
 .text_title{
-    min-width: 300px;
-    font-size:48px;
+    min-width: 360px;
     font-weight:bolder;
     padding:6px 60px 6px 0;
 }
@@ -53,6 +52,16 @@ ul{
 .text{
     font-size:18px;
     padding:0 60px 6px 0;
+    text-align:justify;
+}
+
+h1, h2{
+    padding:6px 0;
+    margin:0;
+}
+
+h1{
+    font-size:48px;
 }
 
 .sign_up_button{
@@ -77,10 +86,9 @@ ul{
 }
 .information_header{
     margin:40px 40px 0 40px;
-    font-size:24px;
+    font-size:36px;
     color:#603601;
     font-weight:bold;
-    font-style:italic;
 }
 
 /*.placeholder{
@@ -130,12 +138,13 @@ ul{
 .item_text{
     color:#603601;
     font-weight: bold;
-    font-size: large;
+    font-size: 18px;
+    font-style:italic;
 }
 
 .image_container{
     /*margin:0 80px;*/
-    max-width: 600px;
+    max-width: 720px;
     min-width: 360px;
     aspect-ratio: auto;
 }
